@@ -1,0 +1,38 @@
+* SQL = Structured query language
+* database type - 1.relational = (tabule) = work in SQL  , ex- mysql , oracle , maria db
+                2.non-relational = (document) = work in non-SQL , ex- mongo db
+
+* data type - 1.string
+              2.number
+              3.date and time
+
+* String 
+1. char(size)    =  0 to 255
+2. varchar(size) =  0 to  65535
+3. binary(size)
+4. varbinary(size)
+5. tinytext      = 255 character
+6. text 
+7. mediumtext
+8. longtext
+9. tinyblob
+10. blob
+11. mediumblob
+12. longblob
+13. enum  = list (val1, val2, ......)
+14. set   = list (val1, val2, .....)
+
+* NUMBER data type
+1. bin(size)  1-64
+2. tinyint(size)  -128 to 127
+3. int(size)
+4. Integer(size)
+5. smallint(size)
+6. mediumint(size)
+7. bigint(size)
+8. bool
+9. boolean
+10. float(p)    # p=point
+11. double(size,d)  # d = decimal place ex-(5,2) = 99.999
+12. decimal(size,d)
+13. dec(size,d)
