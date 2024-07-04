@@ -60,3 +60,23 @@ LIKE "_r%"   - have "r" in the second position
 LIKE "a_%"   - starts with "a" and are at least 2 charactr in lenght
 LIKE "a__%"  - starts with "a" and are at least 3 character in lenght
 LIKE "a%o"   - starts with "a" and ends with "o"
+
+
+
+-- *******************************---
+BETWEEN and NOT BETWEEN
+1. "use to find the data between any range"
+2. "work only for the ineger values"
+
+Syntex -> 1.use database_name
+          2.SELECT * FROM table_name
+            WHERE coloum_name BETWEEN val1 AND val2
+
+            SELECT * FROM table_name
+            WHERE coloum_name NOT BETWEEN val1 AND val2
+
+ex1->  SELECT * FROM example
+       WHERE age BETWEEN 25 AND 29
+
+ex2->  SELECT * FROM example
+       WHERE age NOT BETWEEN 25 AND 29
